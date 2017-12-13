@@ -1,0 +1,26 @@
+.card-app {
+  width: 70%;
+  margin: auto;
+  margin-top: 60px;
+  outline: lightgrey solid thin; }
+
+body {
+  background-color: #fafafa;
+  width: 100%;
+  height: auto;
+  margin: 0; }
+
+.social {
+  margin-right: 12px; }
+
+.fa-2x {
+  font-size: 2em !important; }
+
+.fa-3x {
+  font-size: 3em !important; }
+
+.fa-4x {
+  font-size: 4em !important; }
+
+.fa-5x {
+  font-size: 5em !important; }

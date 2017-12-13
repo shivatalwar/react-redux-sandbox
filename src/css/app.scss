@@ -1,0 +1,91 @@
+.card-app {
+  width: 70%;
+  margin: auto;
+  margin-top: 60px;
+  outline: lightgrey solid thin;
+}
+.headerContainer {
+  padding-top: 12px;
+  width: 100%;
+}
+body {
+  background-color: #fafafa;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  text-align: center;
+}
+
+.nameIconContainer {
+  float: left;
+  margin-left: 24px;
+
+    @media only screen and (max-width: 950px) {
+      float: none;
+      margin-right: 40px;
+    }
+}
+.pdf {
+  margin: 0;
+  @media only screen and (max-width: 952px) {
+    -ms-transform: scale(0.75, 0.75); /* IE 9 */
+    -webkit-transform: scale(0.75, 0.75); /* Safari */
+    transform: scale(0.75, 0.75);
+    transform-origin: left top;
+  }
+
+  @media only screen and (max-width: 723px) {
+    -ms-transform: scale(0.5, 0.5); /* IE 9 */
+    -webkit-transform: scale(0.5, 0.5); /* Safari */
+    transform: scale(0.5, 0.5);
+    transform-origin: left top;
+  }
+
+  @media only screen and (max-width: 522px) {
+    -ms-transform: scale(0.25, 0.25); /* IE 9 */
+    -webkit-transform: scale(0.25, 0.25); /* Safari */
+    transform: scale(0.25, 0.25);
+    transform-origin: left top;
+  }
+
+}
+.nameIcon {
+  width: 140px;
+  height: 30px;
+}
+
+.links {
+  float: right;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+
+    @media only screen and (max-width: 950px) {
+      display:none;
+    }
+}
+
+.sidebarButton {
+  display: none;
+  margin-top: 4px;
+  float: left;
+  margin-left: 24px;
+  @media only screen and (max-width: 950px) {
+    display:block;
+  }
+}
+.social {
+  margin-right: 12px;
+}
+
+.fa-2x {
+  font-size: 2em !important;}
+
+.fa-3x {
+  font-size: 3em !important;}
+
+.fa-4x {
+  font-size: 4em !important;}
+
+.fa-5x {
+  font-size: 5em !important;}

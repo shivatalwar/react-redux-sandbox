@@ -1,0 +1,35 @@
+{
+  "name": "todos-with-undo",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "^1.0.2"
+  },
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "material-ui": "^0.18.1",
+    "node-sass": "^4.5.3",
+    "node-sass-chokidar": "0.0.3",
+    "npm-run-all": "^4.0.2",
+    "prop-types": "^15.5.10",
+    "react": "^15.5.0",
+    "react-dom": "^15.5.0",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "react-tap-event-plugin": "^2.0.1",
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.2.0",
+    "redux-undo": "^0.6.1",
+    "reselect": "^3.0.1"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar src/ -o public/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o public/ --watch --recursive",
+    "start": "npm-run-all -p watch-css start-js",
+    "build": "npm run build-css && react-scripts build",
+    "start-js": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
+}
