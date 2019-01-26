@@ -8,15 +8,13 @@ import Portfolio from './components/Portfolio'
 
 import reducer from './reducers'
 import thunk from 'redux-thunk';
-import injectTapEventPlugin from 'react-tap-event-plugin';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './components/Header'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 const store = createStore(
   reducer,
-  applyMiddleware(thunk),
-  injectTapEventPlugin()
+  applyMiddleware(thunk)
 ) 
 
 render(
