@@ -33,16 +33,16 @@ export class Discover extends React.Component {
         <div className='container'>
           <Card zDepth={0} className='card-app'>
               <CardText style={{textAlign: 'center'}}>
-                Hey, I&#39;m Shiva Talwar and I am currently a Software Development
-                Engineer at IMDb in Seattle, Washington. I graduated from
+                Hey, I&#39;m Shiva Talwar and I am currently a Staff Software
+                Engineer at HBO in Seattle, Washington. I graduated from
                 Honours Electrical & Computer Engineering at the University of
-                Waterloo in 2016. I have done numerous internships at companies
-                like Amazon Web Services, SMART Technologies, and Blackberry.
+                Waterloo in 2016. I have worked for numerous companies like
+                IMDb Amazon Web Services, SMART Technologies, and Blackberry.
                 This is my react-redux sandbox.
               </CardText>
               <div style={{textAlign: 'center'}}>
                 <a href='http://github.com/shivatalwar' target='_blank' ><FontIcon color='lightgrey' hoverColor='black' className='fa fa-github-square fa-2x social' /></a>
-                <a href='http://linkedin.com/in/shiva-talwar-a07ba889' target='_blank' ><FontIcon color='lightgrey' hoverColor='black' className='fa fa-linkedin-square fa-2x social' /></a>
+                <a href='http://linkedin.com/in/shivatalwar' target='_blank' ><FontIcon color='lightgrey' hoverColor='black' className='fa fa-linkedin-square fa-2x social' /></a>
                 <a href='mailto:shiva5talwar@gmail.com' target='_blank' ><FontIcon color='lightgrey' hoverColor='black' className='fa fa-envelope-square fa-2x social' /></a>
               </div>
             </Card>
