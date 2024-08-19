@@ -37,7 +37,7 @@ export class Discover extends React.Component {
                 Engineer at HBO in Seattle, Washington. I graduated from
                 Honours Electrical & Computer Engineering at the University of
                 Waterloo in 2016. I have worked for numerous companies like
-                IMDb Amazon Web Services, SMART Technologies, and Blackberry.
+                IMDb, Amazon Web Services, SMART Technologies, and Blackberry.
                 This is my react-redux sandbox.
               </CardText>
               <div style={{textAlign: 'center'}}>
